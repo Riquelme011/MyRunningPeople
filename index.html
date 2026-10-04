@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kalendar trka</title>
+<style>
+:root{--bg:#fafaf7;--fg:#1c1c1a;--mut:#6b6b66;--line:#e2e2dc;--acc:#d9480f;--chip:#efefe9;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161615;--fg:#eeeeea;--mut:#9a9a93;--line:#2c2c29;--acc:#ff8a4c;--chip:#242422}}
+:root[data-theme="dark"]{--bg:#161615;--fg:#eeeeea;--mut:#9a9a93;--line:#2c2c29;--acc:#ff8a4c;--chip:#242422}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.45 system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:24px 16px 48px}
+h1{font-size:1.6rem;margin:0 0 4px}
+.sub{color:var(--mut);margin:0 0 16px;font-size:.9rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+button{font:inherit;font-size:.9rem;border:1px solid var(--line);background:var(--chip);color:var(--fg);padding:5px 13px;border-radius:999px;cursor:pointer}
+button.on{background:var(--acc);border-color:var(--acc);color:#fff}
+h2{font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;color:var(--mut);margin:28px 0 8px;border-bottom:1px solid var(--line);padding-bottom:6px}
+h3{font-size:.8rem;font-weight:600;color:var(--acc);margin:18px 0 0}
+.lnk{font-size:.82rem;margin-left:8px;white-space:nowrap}
+.race{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.date{text-align:center;line-height:1.1}
+.date b{display:block;font-size:1.4rem;color:var(--acc)}
+.date span{font-size:.75rem;color:var(--mut);text-transform:uppercase}
+.name{font-weight:600}
+.meta{color:var(--mut);font-size:.9rem}
+.dist{display:inline-block;background:var(--chip);border-radius:6px;padding:1px 8px;margin:4px 4px 0 0;font-size:.85rem}
+.tag{font-size:.75rem;color:var(--acc);margin-left:6px;font-weight:400}
+a{color:var(--acc)}
+.empty{color:var(--mut);padding:24px 0}
+.foot{color:var(--mut);font-size:.8rem;margin-top:32px}
+</style>
+</head>
+<body>
+<main>
+<h1>Kalendar trka</h1>
+<p class="sub">Srbija, region, Evropa i svet · predstojeće trke po datumu</p>
+<div class="chips" id="cc"></div>
+<div class="chips" id="dc" style="margin-bottom:20px"></div>
+<div id="list"></div>
+<p class="foot" id="upd"></p>
+<p class="foot">Datume označene sa „okvirno“ procenjeno je po obrascu iz prethodnih godina i nisu potvrđeni. Pre prijave proveri sajt organizatora.</p>
+</main>
+<script>
+let RACES=[],CF=[];
+const MONTHS=["januar","februar","mart","april","maj","jun","jul","avgust","septembar","oktobar","novembar","decembar"];
+const MS=["jan","feb","mar","apr","maj","jun","jul","avg","sep","okt","nov","dec"];
+const DF=[["sve","Sve distance"],["5","do 5 km"],["10","10 km"],["21","Polumaraton"],["42","Maraton"],["trail","Trail"],["ocr","OCR"]];
+let ad="sve",ac="Sve zemlje";
+let UPDATED="";
+const today=new Date().toISOString().slice(0,10);
+const fmt=n=>String(n).replace(".",",")+" km";
+function md(r){
+  if(ad==="sve")return true;
+  if(ad==="5")return r.distances.some(d=>d<=5);
+  if(ad==="10")return r.distances.some(d=>d>5&&d<=15);
+  if(ad==="21")return r.distances.some(d=>d>=21&&d<22);
+  if(ad==="42")return r.distances.some(d=>d>=42);
+  return r.type===ad;
+}
+function render(){
+  document.getElementById("cc").innerHTML=CF.map(c=>`<button class="${c===ac?'on':''}" data-c="${c}">${c}</button>`).join("");
+  document.getElementById("dc").innerHTML=DF.map(f=>`<button class="${f[0]===ad?'on':''}" data-d="${f[0]}">${f[1]}</button>`).join("");
+  const rows=RACES.filter(r=>(r.end||r.date)>=today&&md(r)&&(ac==="Sve zemlje"||r.country===ac)).sort((a,b)=>a.date.localeCompare(b.date));
+  if(!rows.length){document.getElementById("list").innerHTML='<div class="empty">Nema trka za izabrane filtere.</div>';return}
+  let html="",cur="",curP="";
+  const PN=["Prva polovina meseca (1–10)","Sredina meseca (11–20)","Druga polovina meseca (od 21.)"];
+  for(const r of rows){
+    const d=new Date(r.date+"T00:00:00"),key=d.getFullYear()+"-"+d.getMonth();
+    if(key!==cur){cur=key;curP="";html+=`<h2>${MONTHS[d.getMonth()]} ${d.getFullYear()}</h2>`}
+    const p=d.getDate()<=10?0:d.getDate()<=20?1:2;
+    if(p!==curP){curP=p;html+=`<h3>${PN[p]}</h3>`}
+    const day=r.end?d.getDate()+"–"+new Date(r.end+"T00:00:00").getDate():d.getDate();
+    const site=r.site?`<a class="lnk" href="${r.site}" target="_blank" rel="noopener">sajt organizatora ↗</a>`:"";
+    html+=`<div class="race"><div class="date"><b>${day}</b><span>${MS[d.getMonth()]}</span></div>
+    <div><div class="name"><a href="${r.url}" target="_blank" rel="noopener">${r.name}</a>${r.approx?'<span class="tag">okvirno</span>':''}${site}</div>
+    <div class="meta">${r.place}, ${r.country} · izvor: ${r.source}</div>
+    <div>${r.distances.map(x=>`<span class="dist">${fmt(x)}</span>`).join("")}${r.type?`<span class="dist">${r.type==="trail"?"Trail":"OCR"}</span>`:""}${(!r.distances.length&&!r.type)?'<span class="meta">distance na sajtu organizatora</span>':""}</div></div></div>`;
+  }
+  document.getElementById("list").innerHTML=html;
+}
+document.addEventListener("click",e=>{const t=e.target;if(t.dataset.d){ad=t.dataset.d;render()}if(t.dataset.c){ac=t.dataset.c;render()}});
+fetch("trke.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
+  RACES=d.races;UPDATED=d.updated||"";
+  CF=["Sve zemlje",...new Set(RACES.map(r=>r.country))];
+  if(UPDATED)document.getElementById("upd").textContent="Poslednje osvežavanje: "+UPDATED;
+  render();
+}).catch(()=>{document.getElementById("list").innerHTML='<div class="empty">Ne mogu da učitam trke.json.</div>'});
+
+</script>
+</body>
+</html>

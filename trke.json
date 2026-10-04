@@ -1,0 +1,823 @@
+{
+ "updated": "04.10.2026.",
+ "races": [
+  {
+   "date": "2026-10-04",
+   "name": "14. Kragujevački polumaraton",
+   "place": "Kragujevac",
+   "country": "Srbija",
+   "distances": [
+    21.1
+   ],
+   "url": "https://trka.rs/events/904-14-kragujevacki-polumaraton/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-10-04",
+   "name": "Wizz Air Skopje Marathon",
+   "place": "Skoplje",
+   "country": "S. Makedonija",
+   "distances": [
+    5,
+    21.1,
+    42.2
+   ],
+   "url": "https://www.trcanje.rs/event/wizz-air-skopje-marathon/",
+   "source": "Trčanje.rs"
+  },
+  {
+   "date": "2026-10-09",
+   "name": "Serbia EPIC Petrovaradin Fortress Night Trail",
+   "place": "Petrovaradin",
+   "country": "Srbija",
+   "distances": [
+    5
+   ],
+   "type": "trail",
+   "url": "https://trka.rs/events/835-petrovaradin-fortress-night-trail-serbia-epic-2026/",
+   "source": "trka.rs, Trčanje.rs"
+  },
+  {
+   "date": "2026-10-09",
+   "name": "Dalmacija Ultra Trail",
+   "place": "Omiš",
+   "country": "Hrvatska",
+   "distances": [
+    10,
+    20,
+    30,
+    57,
+    105
+   ],
+   "type": "trail",
+   "url": "https://www.trcanje.rs/event/dalmacija-ultra-trail/",
+   "source": "Trčanje.rs"
+  },
+  {
+   "date": "2026-10-10",
+   "name": "1. Green Gate Trail",
+   "place": "Jošanička Banja",
+   "country": "Srbija",
+   "distances": [
+    7,
+    15
+   ],
+   "type": "trail",
+   "url": "https://trka.rs/events/896-1-green-gate-trail/",
+   "source": "trka.rs, Trčanje.rs"
+  },
+  {
+   "date": "2026-10-10",
+   "name": "OCR Invictus Challenge Fruška gora",
+   "place": "Vrdnik",
+   "country": "Srbija",
+   "distances": [
+    7,
+    13
+   ],
+   "type": "ocr",
+   "url": "https://trka.rs/events/834-ocr-invictus-challenge-fruska-gora/",
+   "source": "trka.rs, Trčanje.rs"
+  },
+  {
+   "date": "2026-10-10",
+   "name": "Ultimate OCR 7.0 Avala",
+   "place": "Avala",
+   "country": "Srbija",
+   "distances": [],
+   "type": "ocr",
+   "url": "https://trka.rs/events/939-ultimate-ocr-70-avala-2026/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-10-10",
+   "name": "Humanitarna trka „Trčim za Kosovo i Metohiju“",
+   "place": "Beograd, Ada Ciganlija",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://trka.rs/events/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-10-10",
+   "name": "Kostolački polumaraton",
+   "place": "Kostolac",
+   "country": "Srbija",
+   "distances": [
+    21.1
+   ],
+   "url": "https://runtrace.net/kostolac2026",
+   "source": "RunTrace"
+  },
+  {
+   "date": "2026-10-11",
+   "name": "5. Trka Lazara Kardenasa",
+   "place": "Novi Beograd",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://trka.rs/events/933-5-trka-lazaro-kardenasa/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-10-11",
+   "name": "Svilajnački polumaraton",
+   "place": "Svilajnac",
+   "country": "Srbija",
+   "distances": [
+    21.1
+   ],
+   "url": "https://runtrace.net/svilajnac2026",
+   "source": "RunTrace"
+  },
+  {
+   "date": "2026-10-11",
+   "name": "Novosadski maraton",
+   "place": "Novi Sad",
+   "country": "Srbija",
+   "distances": [
+    5,
+    10,
+    21.1,
+    42.2
+   ],
+   "url": "https://www.hdsports.org/running/serbia-marathon-running",
+   "source": "HDsports"
+  },
+  {
+   "date": "2026-10-11",
+   "name": "Zagrebački maraton",
+   "place": "Zagreb",
+   "country": "Hrvatska",
+   "distances": [
+    10,
+    21.1,
+    42.2
+   ],
+   "url": "https://www.finishers.com/en/event/zagreb-marathon",
+   "source": "Finishers"
+  },
+  {
+   "date": "2026-10-11",
+   "name": "Bank of America Chicago Marathon",
+   "place": "Čikago",
+   "country": "Svet",
+   "distances": [
+    42.2
+   ],
+   "url": "https://www.ahotu.com/fr/challenge/abbott-world-marathon-majors",
+   "source": "Ahotu"
+  },
+  {
+   "date": "2026-10-17",
+   "name": "12. Jesenji planinarski maraton na Fruškoj gori",
+   "place": "Popovica, Sremska Kamenica",
+   "country": "Srbija",
+   "distances": [],
+   "type": "trail",
+   "url": "https://trka.rs/events/874-12-jesenji-planinarski-maraton-na-fru%C5%A1koj-gori/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-10-17",
+   "name": "Trka za život",
+   "place": "Niš, Niška tvrđava",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://trka.rs/events/899-trka-za-%C5%BEivot/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-10-17",
+   "end": "2026-10-18",
+   "name": "NLB Ljubljanski maraton",
+   "place": "Ljubljana",
+   "country": "Slovenija",
+   "distances": [
+    10,
+    21.1,
+    42.2
+   ],
+   "site": "https://www.ljubljanskimaraton.si/",
+   "url": "https://www.visitljubljana.com/sl/obiskovalci/prireditve/prireditve-v-ljubljani/nlb-30-ljubljanski-maraton",
+   "source": "Visit Ljubljana"
+  },
+  {
+   "date": "2026-10-18",
+   "name": "7. Povlen Trail",
+   "place": "Mravinjci, Povlen",
+   "country": "Srbija",
+   "distances": [],
+   "type": "trail",
+   "url": "https://trka.rs/events/804-povlen-trail/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-10-18",
+   "name": "30. Apatinski Dunavski polumaraton",
+   "place": "Apatin",
+   "country": "Srbija",
+   "distances": [
+    21.1
+   ],
+   "url": "https://trka.rs/events/797-30-apatinski-dunavski-polumaraton/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-10-18",
+   "name": "TCS Amsterdam Marathon",
+   "place": "Amsterdam",
+   "country": "Evropa",
+   "distances": [
+    42.2
+   ],
+   "url": "https://esim.holafly.com/travel-tips/marathons-in-europe/",
+   "source": "Holafly, Countryfile"
+  },
+  {
+   "date": "2026-10-24",
+   "name": "Viking Challenge Trail",
+   "place": "Stražilovo, Fruška gora",
+   "country": "Srbija",
+   "distances": [],
+   "type": "trail",
+   "url": "https://trka.rs/events/827-viking-challenge-trail-2026/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-10-24",
+   "name": "11. Dame trče – To sam ja",
+   "place": "Sombor",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://trka.rs/events/926-11-dame-tr%C4%8De-to-sam-ja/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-10-25",
+   "name": "7. Vreme radi za nas",
+   "place": "Sunčani kej",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://trka.rs/events/952-7-vreme-radi-za-nas-25102026/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-10-25",
+   "name": "Podgorički maraton",
+   "place": "Podgorica",
+   "country": "Crna Gora",
+   "distances": [
+    5,
+    42.2
+   ],
+   "url": "https://en.wikipedia.org/wiki/Podgorica_Marathon",
+   "source": "Wikipedia",
+   "approx": true
+  },
+  {
+   "date": "2026-10-25",
+   "name": "Frankfurt Marathon",
+   "place": "Frankfurt",
+   "country": "Evropa",
+   "distances": [
+    42.2
+   ],
+   "url": "https://esim.holafly.com/travel-tips/marathons-in-europe/",
+   "source": "Holafly"
+  },
+  {
+   "date": "2026-10-31",
+   "name": "6. Ulična trka Ečka",
+   "place": "Ečka",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://trka.rs/events/867-6-ulicna-trka-ecka/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-10-31",
+   "end": "2026-11-01",
+   "name": "Ada Run – Night Race",
+   "place": "Ada Ciganlija, Beograd",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://trka.rs/events/948-ada-run-night-race/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-11-01",
+   "name": "6. Pazarski polumaraton",
+   "place": "Novi Pazar",
+   "country": "Srbija",
+   "distances": [
+    21.1
+   ],
+   "url": "https://trka.rs/events/915-6-pazarski-polumaraton/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-11-01",
+   "name": "25. Leskovački polumaraton",
+   "place": "Leskovac",
+   "country": "Srbija",
+   "distances": [
+    21.1
+   ],
+   "url": "https://runtrace.net/leskovac2026",
+   "source": "RunTrace"
+  },
+  {
+   "date": "2026-11-01",
+   "name": "TCS New York City Marathon",
+   "place": "Njujork",
+   "country": "Svet",
+   "distances": [
+    42.2
+   ],
+   "url": "https://www.ahotu.com/fr/challenge/abbott-world-marathon-majors",
+   "source": "Ahotu"
+  },
+  {
+   "date": "2026-11-07",
+   "name": "2. Balkan Express Run",
+   "place": "Pančevo, Pančevački kej",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://trka.rs/events/949-2-balkan-express-run/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-11-08",
+   "name": "14. Otvoreno prvenstvo Fruške gore u planinskom trčanju",
+   "place": "Fruška gora",
+   "country": "Srbija",
+   "distances": [],
+   "type": "trail",
+   "url": "https://trka.rs/events/836-14-otvoreno-prvenstvo-fru%C5%A1ke-gore-u-planinskom-tr%C4%8D/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-11-08",
+   "name": "15. Plavi krug oko Ade",
+   "place": "Beograd",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://runtrace.net/plavikrug2026",
+   "source": "RunTrace"
+  },
+  {
+   "date": "2026-11-08",
+   "name": "Athens Authentic Marathon",
+   "place": "Atina",
+   "country": "Evropa",
+   "distances": [
+    42.2
+   ],
+   "url": "https://esim.holafly.com/travel-tips/marathons-in-europe/",
+   "source": "Holafly, Marathon Index"
+  },
+  {
+   "date": "2026-12-06",
+   "name": "Gučevo Winter Trail",
+   "place": "Gučevo",
+   "country": "Srbija",
+   "distances": [],
+   "type": "trail",
+   "url": "https://runtrace.net/gucevo2026",
+   "source": "RunTrace"
+  },
+  {
+   "date": "2026-12-06",
+   "name": "Valencia Marathon",
+   "place": "Valensija",
+   "country": "Evropa",
+   "distances": [
+    42.2
+   ],
+   "url": "https://marathon-index.com/discover/historic-marathons/",
+   "source": "Marathon Index"
+  },
+  {
+   "date": "2026-12-06",
+   "name": "Shanghai Marathon",
+   "place": "Šangaj",
+   "country": "Svet",
+   "distances": [
+    42.2
+   ],
+   "url": "https://therunningchannel.com/shanghai-passes-first-assessment/",
+   "source": "The Running Channel"
+  },
+  {
+   "date": "2026-12-13",
+   "name": "14. Reciklažni maraton",
+   "place": "Sunčani kej",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://trka.rs/events/837-14-recikla%C5%BEni-maraton/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-12-26",
+   "name": "4. Resolution Run Kalemegdan",
+   "place": "Beograd",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://runtrace.net/rrun2026",
+   "source": "RunTrace"
+  },
+  {
+   "date": "2026-12-26",
+   "name": "1. Noćni trail krsta Tibužda",
+   "place": "Tibužde",
+   "country": "Srbija",
+   "distances": [],
+   "type": "trail",
+   "url": "https://trka.rs/events/953-1-no%C4%87ni-trail-krsta-tibu%C5%BEda/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2026-12-27",
+   "name": "3. Novogodišnji Mrazaton",
+   "place": "Beograd",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://runtrace.net/mrazaton2026",
+   "source": "RunTrace"
+  },
+  {
+   "date": "2026-12-27",
+   "name": "7. Winter Trail Race na Fruškoj gori",
+   "place": "Iriški venac",
+   "country": "Srbija",
+   "distances": [],
+   "type": "trail",
+   "url": "https://trka.rs/events/872-7-winter-trail-race-na-fru%C5%A1koj-gori/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2027-01-10",
+   "name": "BBKT 2027",
+   "place": "Smederevska Palanka",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://runtrace.net/bbkt2027",
+   "source": "RunTrace"
+  },
+  {
+   "date": "2027-02-14",
+   "name": "Splitski maraton",
+   "place": "Split",
+   "country": "Hrvatska",
+   "distances": [
+    21.1,
+    42.2
+   ],
+   "url": "https://www.hdsports.org/running/croatia-marathon-running",
+   "source": "HDsports"
+  },
+  {
+   "date": "2027-03-07",
+   "name": "Tokyo Marathon",
+   "place": "Tokio",
+   "country": "Svet",
+   "distances": [
+    42.2
+   ],
+   "url": "https://therunningchannel.com/world-marathon-majors-2027/",
+   "source": "The Running Channel"
+  },
+  {
+   "date": "2027-03-13",
+   "name": "Avala Trail Race",
+   "place": "Avala, Beograd",
+   "country": "Srbija",
+   "distances": [
+    7.5,
+    12,
+    18
+   ],
+   "type": "trail",
+   "url": "https://itra.run/Races/RaceDetails/Avala.trail.race.18.km/2027/118070",
+   "source": "ITRA, RunTrace"
+  },
+  {
+   "date": "2027-03-14",
+   "name": "12. Kruševački polumaraton",
+   "place": "Kruševac",
+   "country": "Srbija",
+   "distances": [
+    21.1
+   ],
+   "url": "https://trka.rs/events/893-12-kru%C5%A1eva%C4%8Dki-polumaraton/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2027-03-20",
+   "name": "Mostar Run – polumaraton",
+   "place": "Mostar",
+   "country": "BiH",
+   "distances": [
+    21.1
+   ],
+   "site": "https://mostar.run/",
+   "url": "https://mostar.run/en/races/half-marathon/",
+   "source": "Mostar Run"
+  },
+  {
+   "date": "2027-03-21",
+   "name": "Zagreb21 – prolećni polumaraton",
+   "place": "Zagreb",
+   "country": "Hrvatska",
+   "distances": [
+    21.1
+   ],
+   "url": "https://www.hdsports.org/running/running-croatia-races-calendar",
+   "source": "HDsports",
+   "approx": true
+  },
+  {
+   "date": "2027-03-28",
+   "name": "Novosadski polumaraton",
+   "place": "Novi Sad, Trg slobode",
+   "country": "Srbija",
+   "distances": [
+    5,
+    10.5,
+    21.1
+   ],
+   "url": "https://www.hdsports.org/running/serbia-races-running-calendar",
+   "source": "HDsports, 021.rs",
+   "approx": true
+  },
+  {
+   "date": "2027-04-11",
+   "name": "Paris Marathon",
+   "place": "Pariz",
+   "country": "Evropa",
+   "distances": [
+    42.2
+   ],
+   "url": "https://rundida.com/zh/marathon/europe/",
+   "source": "Rundida",
+   "approx": true
+  },
+  {
+   "date": "2027-04-17",
+   "end": "2027-04-18",
+   "name": "Beogradski maraton + Evropsko prvenstvo u trčanju",
+   "place": "Beograd",
+   "country": "Srbija",
+   "distances": [
+    10,
+    21.1,
+    42.2
+   ],
+   "site": "https://europeanrunningchampionships.com/",
+   "url": "https://athleticsweekly.com/news/belgrade-awarded-2027-european-running-championships-1039998152/",
+   "source": "Athletics Weekly, werun.world, bgdmarathon.org"
+  },
+  {
+   "date": "2027-04-18",
+   "name": "Vienna City Marathon",
+   "place": "Beč",
+   "country": "Evropa",
+   "distances": [
+    42.2
+   ],
+   "url": "https://www.hdsports.org/running/europe-marathon-running",
+   "source": "HDsports"
+  },
+  {
+   "date": "2027-04-19",
+   "name": "Boston Marathon",
+   "place": "Boston",
+   "country": "Svet",
+   "distances": [
+    42.2
+   ],
+   "url": "https://therunningchannel.com/world-marathon-majors-2027/",
+   "source": "The Running Channel"
+  },
+  {
+   "date": "2027-04-24",
+   "end": "2027-04-25",
+   "name": "50. Fruškogorski maraton (Fruška Gora Trail)",
+   "place": "Fruška gora",
+   "country": "Srbija",
+   "distances": [],
+   "type": "trail",
+   "site": "https://www.fruskogorski-maraton.com/",
+   "url": "https://www.fruskogorski-maraton.com/en/?p=17899",
+   "source": "Fruškogorski maraton"
+  },
+  {
+   "date": "2027-04-24",
+   "end": "2027-04-25",
+   "name": "TCS London Marathon",
+   "place": "London",
+   "country": "Svet",
+   "distances": [
+    42.2
+   ],
+   "url": "https://therunningchannel.com/world-marathon-majors-2027/",
+   "source": "The Running Channel, Ahotu"
+  },
+  {
+   "date": "2027-04-25",
+   "name": "Dubrovnik polumaraton",
+   "place": "Dubrovnik",
+   "country": "Hrvatska",
+   "distances": [
+    21.1
+   ],
+   "url": "https://www.hdsports.org/running/croatia-marathon-running",
+   "source": "HDsports"
+  },
+  {
+   "date": "2027-04-25",
+   "name": "Sarajevo maraton",
+   "place": "Sarajevo",
+   "country": "BiH",
+   "distances": [
+    42.2
+   ],
+   "url": "https://running.life/en/event/sarajevo-marathon",
+   "source": "running.life",
+   "approx": true
+  },
+  {
+   "date": "2027-05-22",
+   "name": "2. Tibužde Trail",
+   "place": "Tibužde",
+   "country": "Srbija",
+   "distances": [],
+   "type": "trail",
+   "url": "https://trka.rs/events/938-2-tibu%C5%BEde-trail/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2027-05-23",
+   "name": "Cape Town Marathon",
+   "place": "Kejptaun",
+   "country": "Svet",
+   "distances": [
+    42.2
+   ],
+   "url": "https://therunningchannel.com/world-marathon-majors-2027/",
+   "source": "The Running Channel"
+  },
+  {
+   "date": "2027-05-29",
+   "name": "3. Mokra Gora Trail",
+   "place": "Mokra Gora",
+   "country": "Srbija",
+   "distances": [],
+   "type": "trail",
+   "url": "https://trka.rs/events/916-3-mokra-gora-trail/",
+   "source": "trka.rs"
+  },
+  {
+   "date": "2027-06-26",
+   "name": "Noćni maraton Novi Sad",
+   "place": "Novi Sad, Sunčani kej",
+   "country": "Srbija",
+   "distances": [
+    6.4,
+    21.1,
+    42.2
+   ],
+   "url": "https://www.hdsports.org/running/serbia-marathon-running",
+   "source": "HDsports, 021.rs"
+  },
+  {
+   "date": "2027-08-29",
+   "name": "TCS Sydney Marathon",
+   "place": "Sidnej",
+   "country": "Svet",
+   "distances": [
+    42.2
+   ],
+   "url": "https://therunningchannel.com/world-marathon-majors-2027/",
+   "source": "The Running Channel"
+  },
+  {
+   "date": "2027-09-19",
+   "name": "Stonski zidni maraton",
+   "place": "Ston",
+   "country": "Hrvatska",
+   "distances": [
+    4,
+    15,
+    42.2
+   ],
+   "url": "https://www.hdsports.org/running/croatia-marathon-running",
+   "source": "HDsports",
+   "approx": true
+  },
+  {
+   "date": "2027-09-19",
+   "name": "Sarajevski polumaraton",
+   "place": "Sarajevo",
+   "country": "BiH",
+   "distances": [
+    21.1
+   ],
+   "url": "https://www.marathons.com/cs/events/pulmaraton-sarajevo_NjekT",
+   "source": "Marathons.com",
+   "approx": true
+  },
+  {
+   "date": "2027-09-26",
+   "name": "BMW Berlin Marathon",
+   "place": "Berlin",
+   "country": "Svet",
+   "distances": [
+    42.2
+   ],
+   "url": "https://therunningchannel.com/world-marathon-majors-2027/",
+   "source": "The Running Channel",
+   "approx": true
+  },
+  {
+   "date": "2027-10-10",
+   "name": "Novosadski maraton",
+   "place": "Novi Sad",
+   "country": "Srbija",
+   "distances": [
+    5,
+    10,
+    21.1,
+    42.2
+   ],
+   "url": "https://www.hdsports.org/running/serbia-marathon-running",
+   "source": "HDsports",
+   "approx": true
+  },
+  {
+   "date": "2027-10-10",
+   "name": "Zagrebački maraton",
+   "place": "Zagreb",
+   "country": "Hrvatska",
+   "distances": [
+    10,
+    21.1,
+    42.2
+   ],
+   "url": "https://www.hdsports.org/running/croatia-marathon-running",
+   "source": "HDsports",
+   "approx": true
+  },
+  {
+   "date": "2027-10-10",
+   "name": "Bank of America Chicago Marathon",
+   "place": "Čikago",
+   "country": "Svet",
+   "distances": [
+    42.2
+   ],
+   "url": "https://therunningchannel.com/world-marathon-majors-2027/",
+   "source": "The Running Channel",
+   "approx": true
+  },
+  {
+   "date": "2027-10-17",
+   "name": "NLB Ljubljanski maraton",
+   "place": "Ljubljana",
+   "country": "Slovenija",
+   "distances": [
+    10,
+    21.1,
+    42.2
+   ],
+   "site": "https://www.ljubljanskimaraton.si/",
+   "url": "https://www.hdsports.org/running/tek-sloveniji-tekme-tekaski-koledar",
+   "source": "HDsports",
+   "approx": true
+  },
+  {
+   "date": "2027-11-07",
+   "name": "TCS New York City Marathon",
+   "place": "Njujork",
+   "country": "Svet",
+   "distances": [
+    42.2
+   ],
+   "url": "https://therunningchannel.com/world-marathon-majors-2027/",
+   "source": "The Running Channel",
+   "approx": true
+  },
+  {
+   "date": "2027-12-05",
+   "name": "Valencia Marathon",
+   "place": "Valensija",
+   "country": "Evropa",
+   "distances": [
+    42.2
+   ],
+   "url": "https://www.hdsports.org/running/europe-marathon-running",
+   "source": "HDsports",
+   "approx": true
+  }
+ ]
+}
