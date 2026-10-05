@@ -1,30 +1,6 @@
 {
- "updated": "04.10.2026.",
+ "updated": "05.10.2026.",
  "races": [
-  {
-   "date": "2026-10-04",
-   "name": "14. Kragujevački polumaraton",
-   "place": "Kragujevac",
-   "country": "Srbija",
-   "distances": [
-    21.1
-   ],
-   "url": "https://trka.rs/events/904-14-kragujevacki-polumaraton/",
-   "source": "trka.rs"
-  },
-  {
-   "date": "2026-10-04",
-   "name": "Wizz Air Skopje Marathon",
-   "place": "Skoplje",
-   "country": "S. Makedonija",
-   "distances": [
-    5,
-    21.1,
-    42.2
-   ],
-   "url": "https://www.trcanje.rs/event/wizz-air-skopje-marathon/",
-   "source": "Trčanje.rs"
-  },
   {
    "date": "2026-10-09",
    "name": "Serbia EPIC Petrovaradin Fortress Night Trail",
