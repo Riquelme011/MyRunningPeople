@@ -1,62 +1,6 @@
 {
- "updated": "10.10.2026.",
+ "updated": "11.10.2026.",
  "races": [
-  {
-   "date": "2026-10-10",
-   "name": "1. Green Gate Trail",
-   "place": "Jošanička Banja",
-   "country": "Srbija",
-   "distances": [
-    7,
-    15
-   ],
-   "type": "trail",
-   "url": "https://trka.rs/events/896-1-green-gate-trail/",
-   "source": "trka.rs, Trčanje.rs"
-  },
-  {
-   "date": "2026-10-10",
-   "name": "OCR Invictus Challenge Fruška gora",
-   "place": "Vrdnik",
-   "country": "Srbija",
-   "distances": [
-    7,
-    13
-   ],
-   "type": "ocr",
-   "url": "https://trka.rs/events/834-ocr-invictus-challenge-fruska-gora/",
-   "source": "trka.rs, Trčanje.rs"
-  },
-  {
-   "date": "2026-10-10",
-   "name": "Ultimate OCR 7.0 Avala",
-   "place": "Avala",
-   "country": "Srbija",
-   "distances": [],
-   "type": "ocr",
-   "url": "https://trka.rs/events/939-ultimate-ocr-70-avala-2026/",
-   "source": "trka.rs"
-  },
-  {
-   "date": "2026-10-10",
-   "name": "Humanitarna trka „Trčim za Kosovo i Metohiju“",
-   "place": "Beograd, Ada Ciganlija",
-   "country": "Srbija",
-   "distances": [],
-   "url": "https://trka.rs/events/",
-   "source": "trka.rs"
-  },
-  {
-   "date": "2026-10-10",
-   "name": "Kostolački polumaraton",
-   "place": "Kostolac",
-   "country": "Srbija",
-   "distances": [
-    21.1
-   ],
-   "url": "https://runtrace.net/kostolac2026",
-   "source": "RunTrace"
-  },
   {
    "date": "2026-10-11",
    "name": "5. Trka Lazara Kardenasa",
