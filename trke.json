@@ -1,64 +1,6 @@
 {
- "updated": "11.10.2026.",
+ "updated": "12.10.2026.",
  "races": [
-  {
-   "date": "2026-10-11",
-   "name": "5. Trka Lazara Kardenasa",
-   "place": "Novi Beograd",
-   "country": "Srbija",
-   "distances": [],
-   "url": "https://trka.rs/events/933-5-trka-lazaro-kardenasa/",
-   "source": "trka.rs"
-  },
-  {
-   "date": "2026-10-11",
-   "name": "Svilajnački polumaraton",
-   "place": "Svilajnac",
-   "country": "Srbija",
-   "distances": [
-    21.1
-   ],
-   "url": "https://runtrace.net/svilajnac2026",
-   "source": "RunTrace"
-  },
-  {
-   "date": "2026-10-11",
-   "name": "Novosadski maraton",
-   "place": "Novi Sad",
-   "country": "Srbija",
-   "distances": [
-    5,
-    10,
-    21.1,
-    42.2
-   ],
-   "url": "https://www.hdsports.org/running/serbia-marathon-running",
-   "source": "HDsports"
-  },
-  {
-   "date": "2026-10-11",
-   "name": "Zagrebački maraton",
-   "place": "Zagreb",
-   "country": "Hrvatska",
-   "distances": [
-    10,
-    21.1,
-    42.2
-   ],
-   "url": "https://www.finishers.com/en/event/zagreb-marathon",
-   "source": "Finishers"
-  },
-  {
-   "date": "2026-10-11",
-   "name": "Bank of America Chicago Marathon",
-   "place": "Čikago",
-   "country": "Svet",
-   "distances": [
-    42.2
-   ],
-   "url": "https://www.ahotu.com/fr/challenge/abbott-world-marathon-majors",
-   "source": "Ahotu"
-  },
   {
    "date": "2026-10-17",
    "name": "12. Jesenji planinarski maraton na Fruškoj gori",
