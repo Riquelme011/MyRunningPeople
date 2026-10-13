@@ -1,5 +1,5 @@
 {
- "updated": "12.10.2026.",
+ "updated": "13.10.2026.",
  "races": [
   {
    "date": "2026-10-17",
@@ -296,6 +296,15 @@
    "country": "Srbija",
    "distances": [],
    "url": "https://runtrace.net/bbkt2027",
+   "source": "RunTrace"
+  },
+  {
+   "date": "2027-02-06",
+   "name": "10. Zimski noćni polumaraton",
+   "place": "Beograd",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://runtrace.net/",
    "source": "RunTrace"
   },
   {
