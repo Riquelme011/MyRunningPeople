@@ -1,5 +1,5 @@
 {
- "updated": "15.10.2026.",
+ "updated": "16.10.2026.",
  "races": [
   {
    "date": "2026-10-17",
@@ -318,6 +318,15 @@
    ],
    "url": "https://www.hdsports.org/running/croatia-marathon-running",
    "source": "HDsports"
+  },
+  {
+   "date": "2027-02-21",
+   "name": "Love Run Beograd 2027",
+   "place": "Beograd",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://runtrace.net/",
+   "source": "RunTrace"
   },
   {
    "date": "2027-03-07",
