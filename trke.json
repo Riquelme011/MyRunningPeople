@@ -1,25 +1,6 @@
 {
- "updated": "17.10.2026.",
+ "updated": "18.10.2026.",
  "races": [
-  {
-   "date": "2026-10-17",
-   "name": "12. Jesenji planinarski maraton na Fruškoj gori",
-   "place": "Popovica, Sremska Kamenica",
-   "country": "Srbija",
-   "distances": [],
-   "type": "trail",
-   "url": "https://trka.rs/events/874-12-jesenji-planinarski-maraton-na-fru%C5%A1koj-gori/",
-   "source": "trka.rs"
-  },
-  {
-   "date": "2026-10-17",
-   "name": "Trka za život",
-   "place": "Niš, Niška tvrđava",
-   "country": "Srbija",
-   "distances": [],
-   "url": "https://trka.rs/events/899-trka-za-%C5%BEivot/",
-   "source": "trka.rs"
-  },
   {
    "date": "2026-10-17",
    "end": "2026-10-18",
