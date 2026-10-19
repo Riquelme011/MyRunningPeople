@@ -1,53 +1,6 @@
 {
- "updated": "18.10.2026.",
+ "updated": "19.10.2026.",
  "races": [
-  {
-   "date": "2026-10-17",
-   "end": "2026-10-18",
-   "name": "NLB Ljubljanski maraton",
-   "place": "Ljubljana",
-   "country": "Slovenija",
-   "distances": [
-    10,
-    21.1,
-    42.2
-   ],
-   "site": "https://www.ljubljanskimaraton.si/",
-   "url": "https://www.visitljubljana.com/sl/obiskovalci/prireditve/prireditve-v-ljubljani/nlb-30-ljubljanski-maraton",
-   "source": "Visit Ljubljana"
-  },
-  {
-   "date": "2026-10-18",
-   "name": "7. Povlen Trail",
-   "place": "Mravinjci, Povlen",
-   "country": "Srbija",
-   "distances": [],
-   "type": "trail",
-   "url": "https://trka.rs/events/804-povlen-trail/",
-   "source": "trka.rs"
-  },
-  {
-   "date": "2026-10-18",
-   "name": "30. Apatinski Dunavski polumaraton",
-   "place": "Apatin",
-   "country": "Srbija",
-   "distances": [
-    21.1
-   ],
-   "url": "https://trka.rs/events/797-30-apatinski-dunavski-polumaraton/",
-   "source": "trka.rs"
-  },
-  {
-   "date": "2026-10-18",
-   "name": "TCS Amsterdam Marathon",
-   "place": "Amsterdam",
-   "country": "Evropa",
-   "distances": [
-    42.2
-   ],
-   "url": "https://esim.holafly.com/travel-tips/marathons-in-europe/",
-   "source": "Holafly, Countryfile"
-  },
   {
    "date": "2026-10-24",
    "name": "Viking Challenge Trail",
