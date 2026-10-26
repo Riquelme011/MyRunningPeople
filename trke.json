@@ -1,39 +1,6 @@
 {
- "updated": "25.10.2026.",
+ "updated": "26.10.2026.",
  "races": [
-  {
-   "date": "2026-10-25",
-   "name": "7. Vreme radi za nas",
-   "place": "Sunčani kej",
-   "country": "Srbija",
-   "distances": [],
-   "url": "https://trka.rs/events/952-7-vreme-radi-za-nas-25102026/",
-   "source": "trka.rs"
-  },
-  {
-   "date": "2026-10-25",
-   "name": "Podgorički maraton",
-   "place": "Podgorica",
-   "country": "Crna Gora",
-   "distances": [
-    5,
-    42.2
-   ],
-   "url": "https://en.wikipedia.org/wiki/Podgorica_Marathon",
-   "source": "Wikipedia",
-   "approx": true
-  },
-  {
-   "date": "2026-10-25",
-   "name": "Frankfurt Marathon",
-   "place": "Frankfurt",
-   "country": "Evropa",
-   "distances": [
-    42.2
-   ],
-   "url": "https://esim.holafly.com/travel-tips/marathons-in-europe/",
-   "source": "Holafly"
-  },
   {
    "date": "2026-10-31",
    "name": "6. Ulična trka Ečka",
