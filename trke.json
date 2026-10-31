@@ -1,5 +1,5 @@
 {
- "updated": "30.10.2026.",
+ "updated": "31.10.2026.",
  "races": [
   {
    "date": "2026-10-31",
@@ -379,6 +379,15 @@
    "url": "https://running.life/en/event/sarajevo-marathon",
    "source": "running.life",
    "approx": true
+  },
+  {
+   "date": "2027-05-15",
+   "name": "Dragutin Tomašević 2027",
+   "place": "Petrovac",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://runtrace.net/",
+   "source": "RunTrace"
   },
   {
    "date": "2027-05-22",
