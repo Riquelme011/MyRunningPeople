@@ -1,5 +1,5 @@
 {
- "updated": "02.11.2026.",
+ "updated": "03.11.2026.",
  "races": [
   {
    "date": "2026-11-07",
@@ -327,6 +327,15 @@
    "url": "https://running.life/en/event/sarajevo-marathon",
    "source": "running.life",
    "approx": true
+  },
+  {
+   "date": "2027-05-09",
+   "name": "Ugrin run 2027",
+   "place": "Ugrinovci",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://runtrace.net/",
+   "source": "RunTrace"
   },
   {
    "date": "2027-05-15",
