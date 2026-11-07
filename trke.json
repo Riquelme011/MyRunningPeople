@@ -1,5 +1,5 @@
 {
- "updated": "06.11.2026.",
+ "updated": "07.11.2026.",
  "races": [
   {
    "date": "2026-11-07",
@@ -168,6 +168,15 @@
    ],
    "url": "https://therunningchannel.com/world-marathon-majors-2027/",
    "source": "The Running Channel"
+  },
+  {
+   "date": "2027-03-07",
+   "name": "Trka Jezera Tikvara",
+   "place": "Bačka Palanka",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://runtrace.net/",
+   "source": "RunTrace"
   },
   {
    "date": "2027-03-13",
@@ -389,6 +398,15 @@
    ],
    "url": "https://www.hdsports.org/running/serbia-marathon-running",
    "source": "HDsports, 021.rs"
+  },
+  {
+   "date": "2027-07-10",
+   "name": "Jadovnički ultramaraton 2027",
+   "place": "Prijepolje",
+   "country": "Srbija",
+   "distances": [],
+   "url": "https://runtrace.net/",
+   "source": "RunTrace"
   },
   {
    "date": "2027-08-29",
