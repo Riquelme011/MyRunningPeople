@@ -1,36 +1,6 @@
 {
- "updated": "08.11.2026.",
+ "updated": "09.11.2026.",
  "races": [
-  {
-   "date": "2026-11-08",
-   "name": "14. Otvoreno prvenstvo Fruške gore u planinskom trčanju",
-   "place": "Fruška gora",
-   "country": "Srbija",
-   "distances": [],
-   "type": "trail",
-   "url": "https://trka.rs/events/836-14-otvoreno-prvenstvo-fru%C5%A1ke-gore-u-planinskom-tr%C4%8D/",
-   "source": "trka.rs"
-  },
-  {
-   "date": "2026-11-08",
-   "name": "15. Plavi krug oko Ade",
-   "place": "Beograd",
-   "country": "Srbija",
-   "distances": [],
-   "url": "https://runtrace.net/plavikrug2026",
-   "source": "RunTrace"
-  },
-  {
-   "date": "2026-11-08",
-   "name": "Athens Authentic Marathon",
-   "place": "Atina",
-   "country": "Evropa",
-   "distances": [
-    42.2
-   ],
-   "url": "https://esim.holafly.com/travel-tips/marathons-in-europe/",
-   "source": "Holafly, Marathon Index"
-  },
   {
    "date": "2026-12-06",
    "name": "Gučevo Winter Trail",
